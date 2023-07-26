@@ -1,0 +1,5 @@
+git config --global user.name mrunmai
+git config --global user.email mrunmaikudale18@gmail.com
+
+git init 
+
