@@ -25,6 +25,13 @@ git diff --staged = compares staging area with last commit
 git rm filename = remove file from working tree as well as staging area
 git rm --cached filename = remove file from staging area only 
 
-.gitignore = 
+.gitignore = ignores the listed files in this file 
+
+git branch = list all the branches
+git branch branchname = creates a new branch 
+git checkout branchname = changes the branch to specified one 
+
+
+
 
 
