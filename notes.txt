@@ -16,7 +16,7 @@ git commit -a -m "message" = commit without adding the files to staging area
 git checkout filename = matches file with previous commit
 git checkout -f = matches file with previous commit
 
-git log = 
+git log = gives the logs of the commits
 git log -p -1 = output for last 1 commit
 
 git diff = compares working tree with staging area
@@ -32,6 +32,11 @@ git branch branchname = creates a new branch
 git checkout branchname = changes the branch to specified one 
 
 git checkout -b branchname = creates a new branch and switch the branch 
+
+for merging the branch, goto the master branch 
+please ensure the status of every branch
+git merge branchname = merges the branch to master branch
+
 
 
 
