@@ -31,7 +31,7 @@ git branch = list all the branches
 git branch branchname = creates a new branch 
 git checkout branchname = changes the branch to specified one 
 
-
+git checkout -b branchname = creates a new branch and switch the branch 
 
 
 
