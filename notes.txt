@@ -3,3 +3,28 @@ git config --global user.email mrunmaikudale18@gmail.com
 
 git init 
 
+git status
+git status -s = first block staging area, second block working tree
+
+git add filename
+git add -a 
+git add . 
+
+git commit -m "message" = 
+git commit -a -m "message" = commit without adding the files to staging area
+
+git checkout filename = matches file with previous commit
+git checkout -f = matches file with previous commit
+
+git log = 
+git log -p -1 = output for last 1 commit
+
+git diff = compares working tree with staging area
+git diff --staged = compares staging area with last commit
+
+git rm filename = remove file from working tree as well as staging area
+git rm --cached filename = remove file from staging area only 
+
+.gitignore = 
+
+
